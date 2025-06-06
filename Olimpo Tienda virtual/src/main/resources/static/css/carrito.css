@@ -1,0 +1,17 @@
+.contenedor-carrito {
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contenedor-carrito.visible {
+    display: flex;
+}
+
+.img-carrito {
+    max-width: 90%;
+    max-height: 80vh;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}

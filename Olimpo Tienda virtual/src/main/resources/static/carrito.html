@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carrito</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/carrito.css" />
+</head>
+<body>
+    <button onclick="toggleCarrito()">Mostrar/ocultar carrito</button>
+
+    <div class="contenedor-carrito" id="carritoContainer">
+        <img 
+            class="img-carrito" 
+            src="https://masterplc.com/wp-content/uploads/2024/03/Calculadora-quitar-IVA.png" 
+            alt="Carrito de compras" 
+        />
+    </div>
+
+    <script>
+        function toggleCarrito() {
+            const contenedor = document.getElementById('carritoContainer');
+            contenedor.classList.toggle('visible');
+        }
+    </script>
+</body>
+</html>

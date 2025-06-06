@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cuenta</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cuenta.css">
+</head>
+<body>
+
+    <div class="container">
+        <button onclick="mostrarCuenta()" class="btn">Cuenta</button>
+    </div>
+
+    <div id="imagen-cuenta" style="display: none;">
+        <img src="https://img.freepik.com/vector-premium/formulario-registro-pagina-web-o-aplicacion-registrar-cuenta-nueva-registro-usuario-aplicacion_820464-753.jpg?w=1380" 
+             alt="Formulario de cuenta" class="cuenta-img">
+    </div>
+
+    <script>
+        function mostrarCuenta() {
+            document.getElementById('imagen-cuenta').style.display = 'flex';
+        }
+    </script>
+
+</body>
+</html>

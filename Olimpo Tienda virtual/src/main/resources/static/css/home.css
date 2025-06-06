@@ -1,0 +1,14 @@
+.imagen-container {
+            width: 400px;
+            height: 300px;
+            border: 2px solid #ccc;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+
+        .imagen-tienda {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+        }

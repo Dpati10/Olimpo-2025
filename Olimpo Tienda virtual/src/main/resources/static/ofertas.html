@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ofertas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/ofertas.css">
+        <script>
+            function mostrarOfertas() {
+                document.getElementById("contenedor").style.display = "flex";
+            }
+        </script>
+    </head>
+    <body>
+        <div class="badge text-bg-primary text-wrap about-text" style="width: 55rem; margin-top: 20px;">
+           OFERTA !! Para este dia del padre, televisor Samsung 50 pulgadas curvo al 50 % de descuento.APROVECHEE
+        </div>
+        <div style="text-align: center;">
+            <button onclick="mostrarOfertas()">Mostrar Ofertas</button>
+        </div>
+
+        <div id="contenedor" class="contenedor-ofertas" style="display: none;">
+            <img class="img-producto" src="https://i5.walmartimages.com.mx/samsmx/images/product-images/img_large/980022068l.jpg" alt="Televisor en oferta">
+            <img class="img-descuento" src="https://static.vecteezy.com/system/resources/previews/000/556/170/original/sale-special-offer-50-off-vector-illustration.jpg" alt="Descuento 50%">
+        </div>
+    </body>
+</html>
